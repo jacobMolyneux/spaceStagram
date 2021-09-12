@@ -1,0 +1,46 @@
+#cardContainer {
+  border: 3px solid #4a31df;
+  display: flex;
+  flex-direction: column;
+  width: 75vh;
+
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#cardListActions {
+  display: flex;
+}
+.userAction {
+  margin: 10px;
+  list-style-type: none;
+  width: 75px;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#cardImage {
+  width: 95%;
+}
+#detailsHolder {
+  text-align: left;
+}
+
+#NotlikedButton {
+  background: white;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+#likedButton {
+  background: #4a31df;
+  color: white;
+  box-shadow: 2px 2px grey;
+}
+.likeImage {
+  width: 30px;
+  height: 30px;
+}
