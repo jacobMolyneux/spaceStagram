@@ -2,6 +2,14 @@ import { useState, useEffect } from "react";
 import "./stylesheets/card.css";
 import blackHeart from "./images/blackHeart.png";
 import redHeart from "./images/redHeart.png";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  EmailShareButton,
+  FacebookIcon,
+  EmailIcon,
+  TwitterIcon,
+} from "react-share";
 
 const ImageCard = (props) => {
   let [image, setImage] = useState(props.image);
@@ -34,6 +42,23 @@ const ImageCard = (props) => {
               <img className="likeImage" src={blackHeart} alt="Like" />
             </li>
           </ul>
+          <div id="shareDiv">
+            <li id="shareListItem">
+              <FacebookShareButton url={image} quote={title}>
+                <FacebookIcon size={32} round />
+              </FacebookShareButton>
+            </li>
+            <li id="shareListItem">
+              <TwitterShareButton url={image} title={title}>
+                <TwitterIcon size={32} round />
+              </TwitterShareButton>
+            </li>
+            <li id="shareListItem">
+              <EmailShareButton url={image} subject={title} body={description}>
+                <EmailIcon size={32} round />
+              </EmailShareButton>
+            </li>
+          </div>
         </div>
       </div>
     );
@@ -60,6 +85,23 @@ const ImageCard = (props) => {
               <img className="likeImage" src={redHeart} alt="Liked Icon" />
             </li>
           </ul>
+          <div id="shareDiv">
+            <li id="shareListItem">
+              <FacebookShareButton url={image} quote={title}>
+                <FacebookIcon size={32} round />
+              </FacebookShareButton>
+            </li>
+            <li id="shareListItem">
+              <TwitterShareButton url={image} title={title}>
+                <TwitterIcon size={32} round />
+              </TwitterShareButton>
+            </li>
+            <li id="shareListItem">
+              <EmailShareButton url={image} subject={title} body="body">
+                <EmailIcon size={32} round />
+              </EmailShareButton>
+            </li>
+          </div>
         </div>
       </div>
     );

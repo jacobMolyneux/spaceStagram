@@ -44,3 +44,11 @@
   width: 30px;
   height: 30px;
 }
+#shareDiv {
+  display: flex;
+}
+#shareListItem {
+  list-style-type: none;
+  border: 1px solid black;
+  margin: 10px;
+}
