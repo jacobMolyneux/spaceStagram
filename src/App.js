@@ -22,22 +22,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div>
-        <button
-          className="SearchButton"
-          id="spaceSearchBtn"
-          onClick={() => setSpaceState((spaceState = true))}
-        >
-          Space Images
-        </button>
-        <button
-          className="searchButton"
-          id="MarsSearchBtn"
-          onClick={() => setMarsState((marsState = true))}
-        >
-          Mars Images
-        </button>
-      </div>
+
       <div id="container">
         {Images.map((Image) => (
           <ImageCard
