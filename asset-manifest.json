@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spaceStagram/static/css/main.aba04272.chunk.css",
+    "main.js": "/spaceStagram/static/js/main.88901e36.chunk.js",
+    "main.js.map": "/spaceStagram/static/js/main.88901e36.chunk.js.map",
+    "runtime-main.js": "/spaceStagram/static/js/runtime-main.a9793e10.js",
+    "runtime-main.js.map": "/spaceStagram/static/js/runtime-main.a9793e10.js.map",
+    "static/js/2.2a2ca48f.chunk.js": "/spaceStagram/static/js/2.2a2ca48f.chunk.js",
+    "static/js/2.2a2ca48f.chunk.js.map": "/spaceStagram/static/js/2.2a2ca48f.chunk.js.map",
+    "index.html": "/spaceStagram/index.html",
+    "static/css/main.aba04272.chunk.css.map": "/spaceStagram/static/css/main.aba04272.chunk.css.map",
+    "static/js/2.2a2ca48f.chunk.js.LICENSE.txt": "/spaceStagram/static/js/2.2a2ca48f.chunk.js.LICENSE.txt",
+    "static/media/blackHeart.c412cbae.png": "/spaceStagram/static/media/blackHeart.c412cbae.png",
+    "static/media/redHeart.c281b201.png": "/spaceStagram/static/media/redHeart.c281b201.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9793e10.js",
+    "static/js/2.2a2ca48f.chunk.js",
+    "static/css/main.aba04272.chunk.css",
+    "static/js/main.88901e36.chunk.js"
+  ]
+}
